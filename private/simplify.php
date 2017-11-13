@@ -1,4 +1,4 @@
 <?php
 
-define('API_PUBLIC_KEY', "sbpb_ZjkwYmYwNmEtNDQ4Yy00ZGRhLWIxN2MtMzY1NDgzN2M3ODc2");
-define('API_PRIVATE_KEY', "sjoNTb/3954W0jYUqeMKTCU2uMzuXHjrVj8YdR/zSlZ5YFFQL0ODSXAOkNtXTToq");
+define('API_PUBLIC_KEY', "your_public_key");
+define('API_PRIVATE_KEY', "your_private_key");

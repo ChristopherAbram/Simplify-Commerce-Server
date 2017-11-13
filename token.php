@@ -63,20 +63,6 @@ $paymentPayload = array(
 
 $response = array();
 try {
-    /*// Find customer:
-    $customer = Simplify_Customer::findCustomer('000000000');
-    if($customer == null){
-        // Create customer:
-        $customer = Simplify_Customer::createCustomer(array(
-            'email' => $customerEmail,
-            'name' => $customerName
-        ));
-    }*/
-    /*echo '<pre>';
-    print_r($customer);
-    echo '</pre>';
-    exit(0);*/
-    
     $payment = Simplify_Payment::createPayment($paymentPayload);
     if ($payment->paymentStatus == 'APPROVED') {
         $response["id"] = $payment->{'id'};
